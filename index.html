@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+
+<html>
+
+  <head>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.2/jquery.min.js"></script>
+
+    <meta charset=utf-8 />
+
+    <style>
+
+      * {
+        font-family: Helvetica;
+        font-weight: lighter;
+      }
+      .slideshow { 
+        position: relative; 
+      }
+
+      #menu {
+        position:absolute;
+      }
+
+      #slide1, #slide2, #slide3, #slide4, #slide5 { 
+        position: absolute; 
+      }
+
+      .tstop {
+        float: center;
+        width: 750px;
+      } 
+
+      .header {
+        float: center;
+        width: 750px;
+      }
+
+      .header img {
+        width: 560px;
+      }
+    </style>
+
+  </head>
+
+  <body>
+    <!--<div class = "header">
+      <h1>Headline</h1>
+
+      <figure>
+        <img src = "train.png">
+        <figcaption>A Green Line train approaches the station at Union Depot. </figcaption>
+      </figure>
+
+      <p>Open to the public since June 2014, the Green Line has been running a little over a year. However, it is already creating controversy in the Twin Cities over ridership and costs.</p> 
+
+      <p>Even before it opened, the train faced three gubernatorial vetoes and two lawsuits. Recently, Minnesota state Representative Debra Kiel said she was &#34;not a big fan of light rail.&#34; Recounting an anecdote about how the Green Line always seems empty, Kiel said there&#39;s a need for a conversation about whether the trains are being used effectively. </p>
+
+      <p>The debate over the Green Line, and light-rail trains in general, seems to be about numbers. Those opposed to the train cite high costs, nearly $1 billion in construction alone for the Green Line. Supporters cite increasing ridership that reached 5.6 million trips on the Green Line this year, up 14 percent from last year. </p>
+
+      <p>The biggest advocates for the Green Line are the riders themselves.</p>
+
+    </div>-->
+
+    <div class = "menu">
+      <img src = "menu.png" usemap = "#menumap">
+      <map name="menumap">
+        <area shape="circle" coords="100, 195, 40" class = "downtowneast" href="javascript:void(0)" onclick = "changeSlide1()">
+        <area shape="circle" coords="245,225,40" class="westgate" href="javascript:void(0)" onclick = "changeSlide2()">
+        <area shape="circle" coords="352, 185, 40" class = "snelling" href="javascript:void(0)" onclick = "changeSlide3()">
+        <area shape="circle" coords="516, 268, 37" class = "western" href="javascript:void(0)" onclick = "changeSlide4()">
+        <area shape="circle" coords="630, 250, 37" class="uniondepot" href="javascript:void(0)" onclick = "changeSlide5()">
+      </map>
+    </div>
+
+    <div class="slideshow">
+      <div class="tstop" id = "slide1">
+
+        <h2>Downtown East</h2>
+        
+        <p>Aman Gul and Zytoona Hassan, an Afghani couple living in Minneapolis, ride the train by necessity. </p>
+
+        <p>The couple sits side by side on the Green Line, heading for Downtown East. Gul, who is blind, and Hassan, who does not have a driver&#39;s license, do not have another transportation option.</p>
+
+        <p>Gul says they began riding the Green Line &#34;when it started.&#34;</p>
+
+        <p>They have taken the Green Line to work, to the airport, and everyplace else. &#34;Wherever we want to go, we use the train,&#34; Hassan says. </p>
+
+        <p>&#34;It&#39;s comfortable, more than the bus,&#34; Gul adds. </p>
+
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/12d4IQ00ZBE" frameborder="0" allowfullscreen></iframe>
+      
+    </div>
+
+      <div class = "tstop" id="slide2">
+        <h2>Westgate</h2>
+
+        <p>Madeline Carras, an etymology intern at the University of Minnesota, rides the train because she has no other travel option.</p>
+
+        <p>Carras, staying in Minneapolis for the first time this summer, relies on public transportation to commute. </p>
+
+        <p>&#34;For the most part, it has been a pretty safe and easy ride,&#34; she says. &#34;It&#39;s quick.&#34;</p>
+
+        <p>She has more of an issue with the bus. &#34;It was ten minutes late this morning,&#34; she says. </p>
+
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/09BQTcgC1LY" frameborder="0" allowfullscreen></iframe>
+
+      </div>
+
+      <div class = "tstop" id="slide3">
+        <h2>Snelling Ave</h2>
+
+        <p>Natasha James, a single mother of two, rides the train with her daughters, Ant&#39;Twanet and Vodra, because it’s convenient.</p>
+
+        <p>&#34;It’s easier to bring my daughters with me,&#34; says James, who has a seizures that limit her mobility.</p>    
+
+        <p>She hushes Ant&#39;Twanet, who has started climbing up her seat, by showing her daughter a new game on her phone. </p>
+
+        <p>Before the Green Line opened, James says, she rode the bus. &#34;The chaos on the bus caused me to stress out faster,” she says.  “It could sometimes trigger a seizure.&#34;</p>
+
+        <p>In contrast, on the train, &#34;it&#39;s a lot easier to calm myself down and prevent myself from going into a seizure or recover.&#34; </p>
+
+        <p>James uses the train frequently to go to appointments and visit her family downtown St. Paul.</p>
+
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/5sEQvuS37UE" frameborder="0" allowfullscreen></iframe>
+
+      </div>
+
+      <div class = "tstop" id = "slide4">
+        <h2>Western Ave</h2>
+
+        <p>Chris Mertz and Katie Fabrizio, working at the St. Joseph Hospital, ride the train to lunch. </p>
+
+        <p>&#34;It&#39;s much more convenient just to jump on the train and be dropped right off in front of the lunch places. There&#39;s not much wait,&#34; Mertz says. </p>
+
+        <p>Before the Green Line opened, Mertz and Fabrizio would always eat at the same places. &#34;We always ate right near the hospital,&#34; Mertz explains. </p>
+
+        <p>&#34;Actually, this is the first day we&#39;ve done this,&#34; Mertz says.  &#34;We were just talking about how nice it was to go this far from the office and not have it be a time problem.&#34;</p>
+
+        <p>Both Mertz and Fabrizio say they would like to see more trains in the Twin Cities. &#34;I would be willing to pay for it. Especially coming from outside the city, it would be nice to drop off your car and ride the train the rest of the way,&#34; Mertz says. </p>
+
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/-VwPo11SIyw" frameborder="0" allowfullscreen></iframe>
+
+      </div>
+
+      <div class = "tstop" id = "slide5">
+        
+        <h2>Union Depot</h2>
+
+        <p>Dave Rogers, a Metro Transit engineer, drives the train as his job.</p>
+
+        <p>Rogers, the second-most senior operator in the system and the union steward, has driven the train for fourteen years. </p>
+
+        <p>&#34;It&#39;s a little bit more complicated than you might think,&#34; he says. “It&#39;s harder than driving a car. You have to maintain exact speeds.&#34;</p>
+
+        <p>&#34;With the rail, I know the initial expenditures are huge,&#34; Rogers says, &#34;but after that, the price per passenger is much lower than it is on other forms of transportation. I think that it creates a pleasing environment for the city.  This whole area is growing in leaps and bounds right now, so I think it&#39;s good for the economy. I think it&#39;s money wisely spent.&#34;</p>
+
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/Ye7FhB7cYF0" frameborder="0" allowfullscreen></iframe>
+      
+      </div>
+
+      
+
+    </div>
+
+    <script>
+
+        $('.slideshow div').hide(); // hide all slides
+        $('.slideshow div:first-child').show(); // show first slide
+
+        function changeSlide1() {
+          $('.slideshow div').fadeOut(500);
+          $('#slide1').fadeIn(1000);
+        }
+
+        function changeSlide2() {
+          $('.slideshow div').fadeOut(500);
+          $('#slide2').fadeIn(1000);
+        }
+
+        function changeSlide3() {
+          $('.slideshow div').fadeOut(500);
+          $('#slide3').fadeIn(1000);
+        }
+
+        function changeSlide4() {
+          $('.slideshow div').fadeOut(500);
+          $('#slide4').fadeIn(1000);
+        }
+
+        function changeSlide5() {
+          $('.slideshow div').fadeOut(500);
+          $('#slide5').fadeIn(1000);
+        }
+
+      </script>
+
+  </body>
+
+</html>
